@@ -4,8 +4,6 @@ plugins {
     id 'dogfood.plugin.greeting' version '1.0.0'
 }
 
-group = property('group.org')
-
 gradlePlugin {
     plugins {
         greeting {
