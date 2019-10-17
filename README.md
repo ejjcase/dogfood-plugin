@@ -45,3 +45,7 @@ This publishes a version of the plugin that looks just like 1.0.0 except for the
 
 Possibly Gradle is looking for the plugin in the project's `buildSrc/`, which doesn't exist.  But surely it shouldn't do that if the version number doesn't match.
 
+## Update
+
+This bug has already been reported: https://github.com/gradle/gradle/issues/10921
+
