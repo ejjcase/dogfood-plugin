@@ -1,7 +1,6 @@
 plugins {
     id 'java-gradle-plugin'
     id 'maven-publish'
-    id 'dogfood.plugin.greeting' version '1.0.0'
 }
 
 gradlePlugin {
