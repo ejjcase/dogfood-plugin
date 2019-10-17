@@ -1,6 +1,9 @@
 plugins {
     id 'java-gradle-plugin'
+    id 'maven-publish'
 }
+
+group = property('group.org')
 
 gradlePlugin {
     plugins {
